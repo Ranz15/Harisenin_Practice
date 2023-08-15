@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;1,100&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#f87171',
+            secondary: '#ff9c1a',
+            third: '#d9f99d',
+            text_1: '#e5e7eb',
+            line: '#e2e8f0',
+          },
+          fontFamily: {
+            'pacifico': 'Pacifico',
+            'raleway': 'Raleway',
+            'poppins': 'Poppins',
+          }
+        }
+      }
+    }
+  </script>
+    <title>My Portofolio</title>
+</head>
+<body class="bg-slate-200">
+    <div class="container mx-auto p-2">
+        <!-- Header Section START -->
+        <div class="w-[1240px] h-[104px] py-11 justify-between items-center gap-[745px] inline-flex">
+            <div class="py-5 justify-start items-center gap-2.5 flex">
+              <div><span class="text-red-600 font-pacifico text-2xl font-normal">My</span><span class="text-amber-500 text-2xl font-normal font-pacifico">Portfolio</span></div>
+            </div>
+        </div>
+        <!-- Header Section END -->
+        <!-- Hero Section START -->
+        <div class="w-[400px] h-[852px] mt-[20px] bg-white border rounded-[20px] shadow-lg">
+            <!-- Foto & Nama -->
+            <div class="flex flex-col items-center justify-center pt-14 gap-1">
+              <img src="Asset/Foto_Profile/Contoh_Profile.jpeg" alt="Foto Profil" class="w-[200px] h-[200px] bg-secondary rounded-xl">
+              <h1 class="text-[28px]">Randhi Ramadhani R</h1>
+              <p class="text-neutral-950 text-opacity-50 text-base font-medium leading-10">Backend Developer</p>
+            </div>
+
+            <!-- Icon -->
+            <div class="flex items-center justify-center gap-2 mt-2">
+              <!-- Facebook -->
+                <div>
+                  <a href="https://www.facebook.com/randhi.ramadhani/" target="_blank"><img src="Asset/Medsos/Facebook.svg" alt="MyFacebook" class="rounded-lg" class="hover:bg-slate-400"></a>
+                </div>
+              <!-- Linkedin -->
+                <div>
+                  <a href="https://www.linkedin.com/in/randh-ramadhani-rivai/" target="_blank"><img src="Asset/Medsos/Linkedin.svg" alt="MyLinkedIn" class=""></a>
+                </div>
+              <!-- Gitlab -->            
+                <div>
+                  <a href="https://gitlab.com/Ranz15" target="_blank"><img src="Asset/Medsos/gitlab-logo-500.svg" alt="MyGitlab" class="w-[60px] h-[61px] px-2 bg-text_1 rounded-md"></a>
+                </div>
+              <!-- Github -->
+                <div>
+                  <a href="https://github.com/Ranz15" target="_blank"><img src="Asset/Medsos/Github.svg" alt="MyGithub" class=""></a>
+                </div>
+            </div>
+
+            <!-- Contact Me -->
+            <div class="bg-gray-100 w-[350px] h-[350px] mx-[25px] my-[35px] rounded-lg shadow-lg">
+              <!-- Phone Number -->
+              <div class="flex items-start justify-start gap-5 px-12 pt-9 pb-5 border-b-2 border-line">
+                <img src="Asset/Contact_Me/Phone.svg" alt="" class="w-6 h-6">
+                <div class="flex flex-col items-start justify-start">
+                  <p class="text-sm font-semibold text-opacity-50 text-stone-950">Phone</p>
+                  <p class="text-black text-sm font-semibold leading-tight">081313944233</p>
+                </div>
+              </div>
+              <!-- Email -->
+              <div class="flex items-start justify-start gap-5 px-12 pt-8 pb-5 border-b-2 border-line">
+                <img src="Asset/Contact_Me/Mail.svg" alt="" class="w-6 h-6">
+                <div class="flex flex-col items-start justify-start">
+                  <p class="text-sm font-semibold text-opacity-50 text-stone-950">Email</p>
+                  <p class="text-black text-sm font-semibold leading-tight">randi.harmos@gmail.com</p>
+                </div>
+              </div>
+              <!-- Location -->
+              <div class="flex items-start justify-start gap-5 px-12 pt-8 pb-5 border-b-2 border-line">
+                <img src="Asset/Contact_Me/loc.svg" alt="" class="w-6 h-6">
+                <div class="flex flex-col items-start justify-start">
+                  <p class="text-sm font-semibold text-opacity-50 text-stone-950">Location</p>
+                  <p class="text-black text-sm font-semibold leading-tight">Bandung, Indonesia</p>
+                </div>
+              </div>
+              <!-- Download Resume -->
+              <div class="flex items-center justify-center px-11 pt-5">
+                <a href="Asset/Resume/1_updated_index.pdf" class="flex items-center justify-center bg-secondary rounded-full w-[200px] h-11" download>
+                    <img src="Asset/material-symbols_download.svg" alt="Icon Download" class="w-8 h-8 mr-2">
+                    <div class="flex flex-col items-start justify-start">
+                      <p class="text-sm font-semibold text-white">Download Resume</p>
+                    </div>
+                </a>
+              </div>
+            </div>
+            
+
+            <!-- Menu Section START  -->
+            <div class="w-[503px] h-[100px] ml-[685px] mb-11 bg-white border rounded-[20px] shadow-lg relative bottom-[790px] flex items-center justify-center gap-9">
+                <!-- Home Menu -->
+                <div class="flex flex-col items-center justify-center shadow-lg bg-secondary w-[80px] h-[80px] rounded-2xl">
+                  <a href="index.html" class="flex flex-col items-center justify-center">
+                    <img src="Asset/Navbar/Home icon.svg" alt="Home_Icon" class="w-6 h-6">
+                    <p class="text-[12px]">Home</p>
+                  </a>
+                </div>
+                <!-- Resume Menu -->
+                <div class="flex flex-col items-center justify-center shadow-lg bg-secondary w-[80px] h-[80px] rounded-2xl">
+                  <a href="resume.html" class="flex flex-col items-center justify-center">
+                    <img src="Asset/Navbar/active_resume icon.svg" alt="Resume_Icon" class="w-6 h-6">
+                    <p class="text-white text-[12px]">Resume</p>
+                  </a>
+                </div>
+                <!-- Contact Menu -->
+                <div class="flex flex-col items-center justify-center shadow-lg bg-secondary w-[80px] h-[80px] rounded-2xl">
+                  <a href="contact.html" class="flex flex-col items-center justify-center">
+                    <img src="Asset/Navbar/contact icon.svg" alt="Contact_Icon" class="w-6 h-6">
+                    <p class="text-[12px]">Contact</p>
+                  </a>
+                </div>
+            </div>
+            <!-- Menu Section END  -->
+
+            <!-- Content Section START -->
+            <!-- Content 1 -->
+            <div class="w-[820px] h-[700px] ml-[410px] mt-2 bg-white rounded-[20px] shadow-lg relative bottom-[830px]">
+              <div class="flex flex-col items-start justify-start gap-3 mx-14 pt-6 w-[680px]">
+                <div class="flex flex-row">
+                  <h1 class="text-4xl">Resume</h1>
+                  <img src="Asset/Line 5.svg" alt="Garis Lurus" class="pl-10">
+                </div>
+                <div class="flex gap-20 px-6">
+                    <div class="flex flex-col gap-2">
+                        <div class="flex flex-row gap-2">
+                            <img src="Asset/Content_Resume/icon-park-outline_degree-hat.svg" alt="hat_icon" class="w-5 h-5">
+                            <p>Education</p>
+                        </div>
+                        <div class="flex flex-col items-start justify-center w-[288px] h-[115px] bg-amber-100 border shadow-lg rounded-lg px-4 pt-2">
+                            <p class="text-stone-950 text-opacity-50 text-sm font-normal">2013-2017</p>
+                            <p class="text-black text-sm font-semibold">Administrasi Bisnis</p>
+                            <p class="text-black text-sm font-medium">LPKIA Bandung</p>
+                        </div>
+                        <div class="flex flex-col items-start justify-center w-[288px] h-[115px] bg-orange-100 border shadow-lg rounded-lg px-4 pt-2">
+                            <p class="text-stone-950 text-opacity-50 text-sm font-normal">2017-2018</p>
+                            <p class="text-black text-sm font-semibold">Sistem Informasi</p>
+                            <p class="text-black text-sm font-medium">LPKIA Bandung</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-col gap-2">
+                        <div class="flex flex-row gap-2">
+                            <img src="Asset/Content_Resume/humbleicons_briefcase.svg" alt="hat_icon" class="w-5 h-5">
+                            <p>Experience</p>
+                        </div>
+                        <div class="flex flex-col items-start justify-center w-[288px] h-[115px] bg-orange-100 border shadow-lg rounded-lg px-4 pt-2">
+                            <p class="text-stone-950 text-opacity-50 text-sm font-normal">2018-2021</p>
+                            <p class="text-black text-sm font-semibold">Administrasi Staff & IT Support</p>
+                            <p class="text-black text-sm font-medium">PT BFI FINANCE</p>
+                        </div>
+                        <div class="flex flex-col items-start justify-center w-[288px] h-[115px] bg-amber-100 border shadow-lg rounded-lg px-4 pt-2">
+                            <p class="text-stone-950 text-opacity-50 text-sm font-normal">2023-Now</p>
+                            <p class="text-black text-sm font-semibold">Admin & Tracer</p>
+                            <p class="text-black text-sm font-medium">Shopee Express</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex gap-48 px-6 mt-6">
+                    <div class="flex flex-col gap-2">
+                        <div class="flex flex-row gap-2 mb-4">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M14.25 9.75L16.5 12l-2.25 2.25m-4.5 0L7.5 12l2.25-2.25M6 20.25h12A2.25 2.25 0 0020.25 18V6A2.25 2.25 0 0018 3.75H6A2.25 2.25 0 003.75 6v12A2.25 2.25 0 006 20.25z" />
+                                </svg>                                  
+                            </span>
+                            <p>Work Skill</p>
+                        </div>
+                        <div class="flex flex-wrap w-[210px] gap-3">
+                            <span class="flex p-2 bg-slate-200 border rounded-xl text-black text-xs font-normal leading-normal tracking-tight">HTML 5</span>
+                            <span class="flex p-2 bg-slate-200 border rounded-xl text-black text-xs font-normal leading-normal tracking-tight">CSS 3</span>
+                            <span class="p-2 bg-slate-200 border rounded-xl text-black text-xs font-normal leading-normal tracking-tight">Javascript</span>
+                        </div>
+                        <div class="flex flex-wrap w-[224px] gap-3">
+                            <span class="flex p-2 bg-slate-200 border rounded-xl text-black text-xs font-normal leading-normal tracking-tight">Bootstrap</span>
+                            <span class="flex p-2 bg-slate-200 border rounded-xl text-black text-xs font-normal leading-normal tracking-tight">Tailwind CSS</span>
+                            <span class="p-2 bg-slate-200 border rounded-xl text-black text-xs font-normal leading-normal tracking-tight">PHP</span>
+                        </div>
+                        <div class="flex flex-wrap w-[200px] gap-3">
+                            <span class="flex p-2 bg-slate-200 border rounded-xl text-black text-xs font-normal leading-normal tracking-tight">Git</span>
+                            <span class="flex p-2 bg-slate-200 border rounded-xl text-black text-xs font-normal leading-normal tracking-tight">SQL</span>
+                            <span class="p-2 bg-slate-200 border rounded-xl text-black text-xs font-normal leading-normal tracking-tight">Networking</span>
+                        </div>
+                    </div>
+                    <div class="flex flex-col gap-2">
+                        <div class="flex flex-row gap-2 mb-4">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M20.25 8.511c.884.284 1.5 1.128 1.5 2.097v4.286c0 1.136-.847 2.1-1.98 2.193-.34.027-.68.052-1.02.072v3.091l-3-3c-1.354 0-2.694-.055-4.02-.163a2.115 2.115 0 01-.825-.242m9.345-8.334a2.126 2.126 0 00-.476-.095 48.64 48.64 0 00-8.048 0c-1.131.094-1.976 1.057-1.976 2.192v4.286c0 .837.46 1.58 1.155 1.951m9.345-8.334V6.637c0-1.621-1.152-3.026-2.76-3.235A48.455 48.455 0 0011.25 3c-2.115 0-4.198.137-6.24.402-1.608.209-2.76 1.614-2.76 3.235v6.226c0 1.621 1.152 3.026 2.76 3.235.577.075 1.157.14 1.74.194V21l4.155-4.155" />
+                                  </svg>                                                                 
+                            </span>
+                            <p>Soft Skills</p>
+                        </div>
+                        <div class="flex flex-wrap w-[210px] gap-3">
+                            <span class="flex p-2 bg-slate-200 border rounded-xl text-black text-xs font-normal leading-normal tracking-tight">Time Management</span>
+                            <span class="flex p-2 bg-slate-200 border rounded-xl text-black text-xs font-normal leading-normal tracking-tight">Mentorship</span>
+                        </div>
+                        <div class="flex flex-wrap w-[224px] gap-3">
+                            <span class="flex p-2 bg-slate-200 border rounded-xl text-black text-xs font-normal leading-normal tracking-tight">Flexiblity</span>
+                            <span class="flex p-2 bg-slate-200 border rounded-xl text-black text-xs font-normal leading-normal tracking-tight">Semangat</span>
+                        </div>
+                        <div class="flex flex-wrap w-[200px] gap-3">
+                            <span class="flex p-2 bg-slate-200 border rounded-xl text-black text-xs font-normal leading-normal tracking-tight">Research</span>
+                            <span class="flex p-2 bg-slate-200 border rounded-xl text-black text-xs font-normal leading-normal tracking-tight">Pantang Menyerah</span>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <!-- Content 2 -->
+              
+            <!-- Content Section END -->
+        </div>
+        <!-- Hero Section END -->  
+    </div>
+</body>
+</html>
